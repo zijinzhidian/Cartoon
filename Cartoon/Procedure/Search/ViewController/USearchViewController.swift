@@ -128,7 +128,7 @@ class USearchViewController: UBaseViewController {
             searchTableView.isHidden = false
             resultTableView.isHidden = true
             currentRequest?.cancel()
-            print(text)
+         
             currentRequest = ApiProvider.request(UApi.searchRelative(inputText: text), model: [SearchItemModel].self) { (returnData) in
                 self.relative = returnData
                 self.searchTableView.reloadData()

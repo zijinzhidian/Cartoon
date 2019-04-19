@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1807674A21D5C78200E1C840 /* UOtherWorksCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807674921D5C78200E1C840 /* UOtherWorksCCell.swift */; };
+		1807674C21D5D36200E1C840 /* UChapterCHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807674B21D5D36200E1C840 /* UChapterCHead.swift */; };
+		1807674E21D5D37D00E1C840 /* UChapterCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807674D21D5D37D00E1C840 /* UChapterCCell.swift */; };
+		1807675021D6062000E1C840 /* UCommentTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807674F21D6062000E1C840 /* UCommentTCell.swift */; };
 		180BE9192196AA7F0026E711 /* USearchTHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE9182196AA7F0026E711 /* USearchTHead.swift */; };
 		180BE91B2196AA950026E711 /* USearchTFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE91A2196AA950026E711 /* USearchTFoot.swift */; };
 		180BE91D2196C4240026E711 /* UBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BE91C2196C4240026E711 /* UBaseTableViewHeaderFooterView.swift */; };
+		1817F3D221D1CA6000E82CD9 /* UCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F3D121D1CA6000E82CD9 /* UCommentViewController.swift */; };
+		1817F3D421D1CBA200E82CD9 /* UChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F3D321D1CBA200E82CD9 /* UChapterViewController.swift */; };
+		1817F3D621D1CEF700E82CD9 /* UDescriptionTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F3D521D1CEF700E82CD9 /* UDescriptionTCell.swift */; };
+		1817F3D821D1DB9C00E82CD9 /* UOtherWorksTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F3D721D1DB9C00E82CD9 /* UOtherWorksTCell.swift */; };
+		1817F3DA21D1DD6E00E82CD9 /* UTicketTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F3D921D1DD6E00E82CD9 /* UTicketTCell.swift */; };
+		1817F3DC21D1DE9500E82CD9 /* UGuessLikeTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F3DB21D1DE9500E82CD9 /* UGuessLikeTCell.swift */; };
+		1817F3DE21D2095100E82CD9 /* UOtherWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F3DD21D2095100E82CD9 /* UOtherWorksViewController.swift */; };
+		183268D121D0C23B00AA0640 /* UDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183268D021D0C23B00AA0640 /* UDetailViewController.swift */; };
 		1838A19E2192737000744633 /* USpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A19D2192737000744633 /* USpecialViewController.swift */; };
 		1838A1A0219275D300744633 /* USpecialTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A19F219275D200744633 /* USpecialTCell.swift */; };
 		1838A1A22192846100744633 /* UBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838A1A12192846100744633 /* UBaseWebViewController.swift */; };
@@ -26,6 +38,8 @@
 		188673E5219C0B11009AAD3B /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188673E4219C0B11009AAD3B /* UIScrollView+ParallaxHeader.swift */; };
 		188673E7219C0BAD009AAD3B /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188673E6219C0BAD009AAD3B /* ParallaxHeader.swift */; };
 		188673E9219C18E4009AAD3B /* ParallaxHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188673E8219C18E4009AAD3B /* ParallaxHeaderModel.swift */; };
+		18A5DC6921D75DCD0085FB8E /* UReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5DC6821D75DCD0085FB8E /* UReadViewController.swift */; };
+		18A5DC6B21D768E70085FB8E /* UReadCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5DC6A21D768E70085FB8E /* UReadCCell.swift */; };
 		18C31F7A21991F9C00B7821D /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C31F7921991F9C00B7821D /* UCollectionViewAlignedLayout.swift */; };
 		18C46BCD218A93C30078E6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C46BCC218A93C30078E6D1 /* AppDelegate.swift */; };
 		18C46BCF218A93C30078E6D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C46BCE218A93C30078E6D1 /* ViewController.swift */; };
@@ -79,9 +93,21 @@
 
 /* Begin PBXFileReference section */
 		02DEC46E7F42898B140EC334 /* Pods-Cartoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cartoon/Pods-Cartoon.debug.xcconfig"; sourceTree = "<group>"; };
+		1807674921D5C78200E1C840 /* UOtherWorksCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UOtherWorksCCell.swift; sourceTree = "<group>"; };
+		1807674B21D5D36200E1C840 /* UChapterCHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChapterCHead.swift; sourceTree = "<group>"; };
+		1807674D21D5D37D00E1C840 /* UChapterCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UChapterCCell.swift; path = /Users/apple/Desktop/Cartoon/Cartoon/Procedure/UChapterCCell.swift; sourceTree = "<absolute>"; };
+		1807674F21D6062000E1C840 /* UCommentTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCommentTCell.swift; sourceTree = "<group>"; };
 		180BE9182196AA7F0026E711 /* USearchTHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchTHead.swift; sourceTree = "<group>"; };
 		180BE91A2196AA950026E711 /* USearchTFoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchTFoot.swift; sourceTree = "<group>"; };
 		180BE91C2196C4240026E711 /* UBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		1817F3D121D1CA6000E82CD9 /* UCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCommentViewController.swift; sourceTree = "<group>"; };
+		1817F3D321D1CBA200E82CD9 /* UChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChapterViewController.swift; sourceTree = "<group>"; };
+		1817F3D521D1CEF700E82CD9 /* UDescriptionTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDescriptionTCell.swift; sourceTree = "<group>"; };
+		1817F3D721D1DB9C00E82CD9 /* UOtherWorksTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UOtherWorksTCell.swift; sourceTree = "<group>"; };
+		1817F3D921D1DD6E00E82CD9 /* UTicketTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTicketTCell.swift; sourceTree = "<group>"; };
+		1817F3DB21D1DE9500E82CD9 /* UGuessLikeTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UGuessLikeTCell.swift; sourceTree = "<group>"; };
+		1817F3DD21D2095100E82CD9 /* UOtherWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UOtherWorksViewController.swift; sourceTree = "<group>"; };
+		183268D021D0C23B00AA0640 /* UDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDetailViewController.swift; sourceTree = "<group>"; };
 		1838A19D2192737000744633 /* USpecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USpecialViewController.swift; sourceTree = "<group>"; };
 		1838A19F219275D200744633 /* USpecialTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USpecialTCell.swift; sourceTree = "<group>"; };
 		1838A1A12192846100744633 /* UBaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseWebViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +124,8 @@
 		188673E4219C0B11009AAD3B /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
 		188673E6219C0BAD009AAD3B /* ParallaxHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
 		188673E8219C18E4009AAD3B /* ParallaxHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderModel.swift; sourceTree = "<group>"; };
+		18A5DC6821D75DCD0085FB8E /* UReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UReadViewController.swift; sourceTree = "<group>"; };
+		18A5DC6A21D768E70085FB8E /* UReadCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UReadCCell.swift; sourceTree = "<group>"; };
 		18C31F7921991F9C00B7821D /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
 		18C46BC9218A93C30078E6D1 /* Cartoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cartoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C46BCC218A93C30078E6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -204,6 +232,11 @@
 			children = (
 				18813F202191325900301331 /* UComicListViewController.swift */,
 				188673DD219AAC40009AAD3B /* UComicViewController.swift */,
+				183268D021D0C23B00AA0640 /* UDetailViewController.swift */,
+				1817F3D121D1CA6000E82CD9 /* UCommentViewController.swift */,
+				1817F3D321D1CBA200E82CD9 /* UChapterViewController.swift */,
+				1817F3DD21D2095100E82CD9 /* UOtherWorksViewController.swift */,
+				18A5DC6821D75DCD0085FB8E /* UReadViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -213,6 +246,15 @@
 			children = (
 				18813F242191390100301331 /* UComicTCell.swift */,
 				188673DF219AB124009AAD3B /* UComicHead.swift */,
+				1817F3D521D1CEF700E82CD9 /* UDescriptionTCell.swift */,
+				1817F3D721D1DB9C00E82CD9 /* UOtherWorksTCell.swift */,
+				1817F3D921D1DD6E00E82CD9 /* UTicketTCell.swift */,
+				1817F3DB21D1DE9500E82CD9 /* UGuessLikeTCell.swift */,
+				1807674921D5C78200E1C840 /* UOtherWorksCCell.swift */,
+				1807674B21D5D36200E1C840 /* UChapterCHead.swift */,
+				1807674D21D5D37D00E1C840 /* UChapterCCell.swift */,
+				1807674F21D6062000E1C840 /* UCommentTCell.swift */,
+				18A5DC6A21D768E70085FB8E /* UReadCCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -650,10 +692,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1817F3DA21D1DD6E00E82CD9 /* UTicketTCell.swift in Sources */,
 				18813F252191390100301331 /* UComicTCell.swift in Sources */,
 				188673E7219C0BAD009AAD3B /* ParallaxHeader.swift in Sources */,
 				18C46C15218AD2D60078E6D1 /* USubscibeListViewController.swift in Sources */,
+				1807674C21D5D36200E1C840 /* UChapterCHead.swift in Sources */,
+				1807674E21D5D37D00E1C840 /* UChapterCCell.swift in Sources */,
+				1807675021D6062000E1C840 /* UCommentTCell.swift in Sources */,
 				188673E5219C0B11009AAD3B /* UIScrollView+ParallaxHeader.swift in Sources */,
+				18A5DC6921D75DCD0085FB8E /* UReadViewController.swift in Sources */,
+				1817F3DC21D1DE9500E82CD9 /* UGuessLikeTCell.swift in Sources */,
+				1817F3DE21D2095100E82CD9 /* UOtherWorksViewController.swift in Sources */,
 				18C46C0B218A94720078E6D1 /* UPageViewController.swift in Sources */,
 				18C46C0E218A94720078E6D1 /* UHomeViewController.swift in Sources */,
 				18C46C2B218C53FD0078E6D1 /* UBaseCollectionViewCell.swift in Sources */,
@@ -670,7 +719,10 @@
 				18EF6252218D974D005A0995 /* UComicCHead.swift in Sources */,
 				18C46BCF218A93C30078E6D1 /* ViewController.swift in Sources */,
 				18C46C19218AE9460078E6D1 /* Global.swift in Sources */,
+				18A5DC6B21D768E70085FB8E /* UReadCCell.swift in Sources */,
 				188673E2219AB864009AAD3B /* UIViewExtension.swift in Sources */,
+				1817F3D221D1CA6000E82CD9 /* UCommentViewController.swift in Sources */,
+				183268D121D0C23B00AA0640 /* UDetailViewController.swift in Sources */,
 				18EF6250218D82ED005A0995 /* UBoardCCell.swift in Sources */,
 				18C46C09218A94720078E6D1 /* UBaseViewController.swift in Sources */,
 				1838A1A421928F9F00744633 /* UUpdateListViewController.swift in Sources */,
@@ -682,7 +734,11 @@
 				18EF6254218D9763005A0995 /* UComicCFoot.swift in Sources */,
 				18C46C21218BEDD90078E6D1 /* UModel.swift in Sources */,
 				18C46C25218C22290078E6D1 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
+				1817F3D421D1CBA200E82CD9 /* UChapterViewController.swift in Sources */,
 				1880FA5F21906E1A007566EA /* URefresh.swift in Sources */,
+				1807674A21D5C78200E1C840 /* UOtherWorksCCell.swift in Sources */,
+				1817F3D821D1DB9C00E82CD9 /* UOtherWorksTCell.swift in Sources */,
+				1817F3D621D1CEF700E82CD9 /* UDescriptionTCell.swift in Sources */,
 				1838A19E2192737000744633 /* USpecialViewController.swift in Sources */,
 				180BE91D2196C4240026E711 /* UBaseTableViewHeaderFooterView.swift in Sources */,
 				18813F212191325900301331 /* UComicListViewController.swift in Sources */,
@@ -873,6 +929,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4R3BFY32R;
 				INFOPLIST_FILE = Cartoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -892,6 +949,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4R3BFY32R;
 				INFOPLIST_FILE = Cartoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
