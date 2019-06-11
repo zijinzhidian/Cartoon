@@ -27,26 +27,26 @@ class UReadViewController: UBaseViewController {
         let cw = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cw.backgroundColor = UIColor.background
         cw.delegate = self
-        cw.dataSource = self
+//        cw.dataSource = self
         return cw
     }()
     
     
 }
 
-extension UReadViewController: UICollectionViewDataSource {
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return chapterList.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return chapterList[section].image_list?.count ?? 0
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
-    }
-}
+//extension UReadViewController: UICollectionViewDataSource {
+//    func numberOfSections(in collectionView: UICollectionView) -> Int {
+//        return chapterList.count
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return chapterList[section].image_list?.count ?? 0
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//        return nil;
+//    }
+//}
 
 extension UReadViewController: UICollectionViewDelegate {
     
