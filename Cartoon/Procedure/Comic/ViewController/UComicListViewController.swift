@@ -49,11 +49,11 @@ class UComicListViewController: UBaseViewController {
         ApiLoadingProvider.request(UApi.comicList(argCon: argCon, argName: argName ?? "", argValue: argValue, page: page),
                                    model: ComicListModel.self) { [weak self] (resultData) in
                                     
-                                    self?.tableView.uHead.endRefreshing()
+                                    self?.tableView.uHead?.endRefreshing()
                                     if resultData?.hasMore == false {
-                                        self?.tableView.uFoot.endRefreshingWithNoMoreData()
+                                        self?.tableView.uFoot?.endRefreshingWithNoMoreData()
                                     } else {
-                                        self?.tableView.uFoot.endRefreshing()
+                                        self?.tableView.uFoot?.endRefreshing()
                                     }
                                     self?.tableView.uEmpty?.allowShow = true
                                     

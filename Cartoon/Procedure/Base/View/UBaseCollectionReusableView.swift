@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Reusable
 
-class UBaseCollectionReusableView: UICollectionReusableView {
+class UBaseCollectionReusableView: UICollectionReusableView, Reusable {
     override init(frame: CGRect) {
         super.init(frame: frame)
         configUI()

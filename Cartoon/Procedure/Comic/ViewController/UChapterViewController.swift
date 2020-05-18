@@ -87,4 +87,10 @@ extension UChapterViewController: UICollectionViewDelegateFlowLayout {
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         delegate?.comicWillEndDragging(scrollView)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let index = isPositive ? indexPath.row : ((detailStatic?.chapter_list?.count)! - indexPath.row - 1)
+        let vc = UReadViewController(detailStatic: detailStatic, selectIndex: index)
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }

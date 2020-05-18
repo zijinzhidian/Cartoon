@@ -140,7 +140,7 @@ extension UPageViewController: UIPageViewControllerDelegate {
             let index = vcs.firstIndex(of: viewController) else { return }
         currentSelectIndex = index
         segment.setSelectedSegmentIndex(UInt(index), animated: true)
-        guard titles != nil && pageStyle == .none else { return }
+        guard titles != nil && pageStyle == Optional.none else { return }
         navigationItem.title = titles[index]
     }
 }

@@ -98,7 +98,7 @@ class UBoutiqueListViewController: UBaseViewController {
         }
         
         ApiLoadingProvider.request(UApi.boutiqueList(sexType: sexType), model: BoutiqueListModel.self) { [weak self] (returnData) in
-            self?.collectionView.uHead.endRefreshing()
+            self?.collectionView.uHead?.endRefreshing()
             self?.collectionView.uEmpty?.allowShow = true
             
             self?.galleryItems = returnData?.galleryItems ?? []
@@ -122,8 +122,10 @@ class UBoutiqueListViewController: UBaseViewController {
             let vc = UBaseWebViewController(url: url)
             navigationController?.pushViewController(vc, animated: true)
         } else {
-            print(111111)
-//            guard let comicIdString =
+            guard let comicIdString = item.ext?.compactMap({ return $0.key == "comicId" ? $0.val : nil }).joined(),
+                let comicId = Int(comicIdString) else { return }
+            let vc = UComicViewController(comicid: comicId)
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }

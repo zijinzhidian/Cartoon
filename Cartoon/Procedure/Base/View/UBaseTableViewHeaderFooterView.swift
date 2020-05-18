@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Reusable
 
-class UBaseTableViewHeaderFooterView: UITableViewHeaderFooterView {
+class UBaseTableViewHeaderFooterView: UITableViewHeaderFooterView, Reusable {
     
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)

@@ -140,7 +140,7 @@ class UCollectionViewSectionBackgroundLayout: UICollectionViewFlowLayout {
             } else {
                 sectionFrame.origin.y -= headLayout?.frame.height ?? 0
                 sectionFrame.size.width = collectionView?.frame.width ?? 0
-                sectionFrame.size.height += sectionInset.top + sectionInset.bottom + (headLayout?.frame.height ?? 0) + (footLayout?.frame.height ?? 0)
+                sectionFrame.size.height = sectionFrame.size.height + sectionInset.top + sectionInset.bottom + (headLayout?.frame.height ?? 0) + (footLayout?.frame.height ?? 0)
             }
             
             //根据上面的结果计算section背景的布局属性
